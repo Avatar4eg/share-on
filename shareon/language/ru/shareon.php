@@ -1,25 +1,25 @@
 <?php
 /**
-*
-* Share On extension for the phpBB Forum Software package.
-* Russian translation
-*
-* @copyright (c) 2015 Vinny <https://github.com/vinny>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Share On extension for the phpBB Forum Software package.
+ * Russian translation
+ *
+ * @copyright (c) 2015 Vinny <https://github.com/vinny>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
-	exit;
+    exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+    $lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -39,17 +39,19 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'SO_SELECT'				=> 'Поделиться в',
-	// Share On viewtopic.php
-	'SHARE_ON_FACEBOOK'		=> 'Поделиться в Facebook',
-	'SHARE_ON_TWITTER'		=> 'Поделиться в Twitter',
-	'SHARE_ON_TUENTI'		=> 'Поделиться в Tuenti',
-	'SHARE_ON_SONICO'		=> 'Поделиться в Sonico',
-	'SHARE_ON_FRIENDFEED'	=> 'Поделиться в FriendFeed',
-	'SHARE_ON_DIGG'			=> 'Поделиться в Digg',
-	'SHARE_ON_REDDIT'		=> 'Поделиться в Reddit',
-	'SHARE_ON_DELICIOUS'	=> 'Поделиться в Delicious',
-	'SHARE_ON_VK'			=> 'Поделиться в VK',
-	'SHARE_ON_TUMBLR'		=> 'Поделиться в Tumblr',
-	'SHARE_ON_GOOGLE'		=> 'Поделиться в Google+',
+    'SO_SELECT'				=> 'Поделиться в',
+    // Share On viewtopic.php
+    'SHARE_ON_FACEBOOK'		=> 'Поделиться в Facebook',
+    'SHARE_ON_TWITTER'		=> 'Поделиться в Twitter',
+    'SHARE_ON_TUENTI'		=> 'Поделиться в Tuenti',
+    'SHARE_ON_SONICO'		=> 'Поделиться в Sonico',
+    'SHARE_ON_FRIENDFEED'	=> 'Поделиться в FriendFeed',
+    'SHARE_ON_DIGG'			=> 'Поделиться в Digg',
+    'SHARE_ON_REDDIT'		=> 'Поделиться в Reddit',
+    'SHARE_ON_DELICIOUS'	=> 'Поделиться в Delicious',
+    'SHARE_ON_VK'			=> 'Поделиться в ВКонтакте',
+    'SHARE_ON_TUMBLR'		=> 'Поделиться в Tumblr',
+    'SHARE_ON_GOOGLE'		=> 'Поделиться в Google+',
+    'SHARE_ON_OK'		    => 'Поделиться в Одноклассниках',
+    'SHARE_ON_MYMAIL'		=> 'Поделиться в Моём Мире',
 ));

@@ -2,7 +2,8 @@
 	float: none;
 	position: absolute;
 	margin: 0;
-	right: 0;
+	/*right: 0;*/
+	left: 190px;
 	list-style: none;
 }
 

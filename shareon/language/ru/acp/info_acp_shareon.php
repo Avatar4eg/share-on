@@ -53,12 +53,14 @@ $lang = array_merge($lang, array(
 	'SO_DIGG'		=> 'Digg',
 	'SO_REDDIT'		=> 'Reddit',
 	'SO_DELICIOUS' 	=> 'Delicious',
-	'SO_VK'			=> 'VK',
+	'SO_VK'			=> 'ВКонтакте',
 	'SO_TUENTI'		=> 'Tuenti',
 	'SO_SONICO'		=> 'Sonico',
 	'SO_FRIENDFEED'	=> 'FriendFeed',
 	'SO_TUMBLR'		=> 'Tumblr',
 	'SO_GOOGLE'		=> 'Google+',
+	'SO_OK'			=> 'Одноклассники',
+	'SO_MYMAIL'		=> 'Мой Мир',
 
 	// Share Type
 	'SO_TYPE'			=> 'Тип',

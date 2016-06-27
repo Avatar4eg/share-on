@@ -1,24 +1,24 @@
 <?php
 /**
-*
-* Share On extension for the phpBB Forum Software package.
-*
-* @copyright (c) 2015 Vinny <https://github.com/vinny>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Share On extension for the phpBB Forum Software package.
+ *
+ * @copyright (c) 2015 Vinny <https://github.com/vinny>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 /**
-* DO NOT CHANGE
-*/
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
-	exit;
+    exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+    $lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,28 +38,30 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	// ACP
-	'SO_ACP'		=> 'Share On Extension',
+    // ACP
+    'SO_ACP'		=> 'Share On Extension',
     'SO_TITLE'		=> 'Share On Extension Settings',
-	'SO_EXPLAIN'	=> 'Configure in which sites you want to share your topics.',	
-	'SHARE_ON_MOD'	=> 'Share On',
-	'SO_CONFIG'		=> 'Settings',
-	'SO_SELECT'		=> 'Share On',
-	'SO_SAVED'		=> 'Changes Saved.',
-	'SO_STATUS'		=> 'Enable Share On Extension',
-	'SO_FACEBOOK'	=> 'Facebook',
-	'SO_TWITTER'	=> 'Twitter',
-	'SO_DIGG'		=> 'Digg',
-	'SO_REDDIT'		=> 'Reddit',
-	'SO_DELICIOUS' 	=> 'Delicious',
-	'SO_VK'			=> 'VK',
-	'SO_TUENTI'		=> 'Tuenti',
-	'SO_SONICO'		=> 'Sonico',
-	'SO_FRIENDFEED'	=> 'FriendFeed',
-	'SO_TUMBLR'		=> 'Tumblr',
-	'SO_GOOGLE'		=> 'Google+',
+    'SO_EXPLAIN'	=> 'Configure in which sites you want to share your topics.',
+    'SHARE_ON_MOD'	=> 'Share On',
+    'SO_CONFIG'		=> 'Settings',
+    'SO_SELECT'		=> 'Share On',
+    'SO_SAVED'		=> 'Changes Saved.',
+    'SO_STATUS'		=> 'Enable Share On Extension',
+    'SO_FACEBOOK'	=> 'Facebook',
+    'SO_TWITTER'	=> 'Twitter',
+    'SO_DIGG'		=> 'Digg',
+    'SO_REDDIT'		=> 'Reddit',
+    'SO_DELICIOUS' 	=> 'Delicious',
+    'SO_VK'			=> 'VKontakte',
+    'SO_TUENTI'		=> 'Tuenti',
+    'SO_SONICO'		=> 'Sonico',
+    'SO_FRIENDFEED'	=> 'FriendFeed',
+    'SO_TUMBLR'		=> 'Tumblr',
+    'SO_GOOGLE'		=> 'Google+',
+    'SO_OK'			=> 'Odnoklassniki',
+    'SO_MYMAIL'		=> 'My World',
 
-	// Share Type
-	'SO_TYPE'			=> 'Share Type',
-	'SO_TYPE_EXPLAIN'	=> 'You can choose to share the <strong>topic</strong> link or share every single <strong>post</strong> from the topic.',
+    // Share Type
+    'SO_TYPE'			=> 'Share Type',
+    'SO_TYPE_EXPLAIN'	=> 'You can choose to share the <strong>topic</strong> link or share every single <strong>post</strong> from the topic.',
 ));

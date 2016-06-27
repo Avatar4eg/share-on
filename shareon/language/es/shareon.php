@@ -52,4 +52,6 @@ $lang = array_merge($lang, array(
 	'SHARE_ON_VK'			=> 'Compartir en VK',
 	'SHARE_ON_TUMBLR'		=> 'Compartir en Tumblr',
 	'SHARE_ON_GOOGLE'		=> 'Compartir en Google+',
+	'SHARE_ON_OK'			=> 'Compartir en Odnoklassniki',
+	'SHARE_ON_MYMAIL'		=> 'Compartir en My World',
 ));

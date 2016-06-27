@@ -48,6 +48,8 @@ class shareon_module
 			$config->set('so_vk', $request->variable('so_vk', true));
 			$config->set('so_tumblr', $request->variable('so_tumblr', true));
 			$config->set('so_google', $request->variable('so_google', true));
+			$config->set('so_ok', $request->variable('so_ok', true));
+			$config->set('so_mymail', $request->variable('so_mymail', true));
 
 			trigger_error($user->lang['SO_SAVED'] . adm_back_link($this->u_action));
 		}
@@ -66,6 +68,8 @@ class shareon_module
 			'SO_VK'			=> (!empty($this->config['so_vk'])) ? true : false,
 			'SO_TUMBLR'		=> (!empty($this->config['so_tumblr'])) ? true : false,
 			'SO_GOOGLE'		=> (!empty($this->config['so_google'])) ? true : false,
+			'SO_OK'			=> (!empty($this->config['so_ok'])) ? true : false,
+			'SO_MYMAIL'		=> (!empty($this->config['so_mymail'])) ? true : false,
 			'U_ACTION'		=> $this->u_action,
 		));
 	}

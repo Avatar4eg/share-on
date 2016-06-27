@@ -59,6 +59,8 @@ $lang = array_merge($lang, array(
 	'SO_FRIENDFEED'	=> 'فريند فيد FriendFeed',
 	'SO_TUMBLR'		=> 'تامبلار Tumblr',
 	'SO_GOOGLE'		=> 'جوجل بلاس Google+',
+	'SO_OK'			=> 'تامبلار Odnoklassniki',
+	'SO_MYMAIL'		=> 'تامبلار My World',
 
 	// Share Type
 	'SO_TYPE'			=> 'نوع المشاركة',

@@ -38,6 +38,8 @@ class install_shareon_1_0_0 extends \phpbb\db\migration\migration
 			array('config.add', array('so_tumblr', 1)),
 			array('config.add', array('so_google', 1)),
 			array('config.add', array('so_reddit', 1)),
+			array('config.add', array('so_ok', 1)),
+			array('config.add', array('so_mymail', 1)),
 
 			array('config.add', array('shareon_version', '1.0.0')),
 
